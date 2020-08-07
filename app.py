@@ -11,8 +11,7 @@ app = Flask(__name__)
 api = Api(app)
 
 ALLOWED_EXTENSIONS = ['.jpeg']
-#IMG_FILE_NAME = 'uploads/img_data.temp.jpeg'
-#tempfile.gettempdir()
+
 class ClassifyImage(Resource):
 
     def post(self):
